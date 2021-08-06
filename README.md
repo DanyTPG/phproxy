@@ -16,6 +16,9 @@ Demo: https://www.phoenixpeca.xyz/gprox/
 This source code is released under the GPL.
 A copy of the license is provided in this package in the filename `LICENSE.md`.
 
+## Deploy to Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/DanyTPG/phproxy/tree/master)
+
 ## Requirements
 
  * PHP version > 5
