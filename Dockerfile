@@ -1,3 +1,3 @@
-FROM php:7.2-apache
-COPY . /var/www/html/
+FROM caddy
+COPY . /usr/share/caddy/
 EXPOSE $PORT
