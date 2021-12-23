@@ -177,7 +177,7 @@ if ($_iflags !== '')
 
     foreach ($_flags as $flag_name => $flag_value)
     {
-        $_flags[$flag_name] = $_frozen_flags[$flag_name] ? $flag_value : (int)(bool)$_iflags{$i};
+        $_flags[$flag_name] = $_frozen_flags[$flag_name] ? $flag_value : (int)(bool)$_iflags[$i];
         $i++;
     }
 }
