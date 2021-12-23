@@ -1,3 +1,3 @@
-FROM php:7.2-apache
+FROM futureys/heroku-php-apache2
 COPY . /var/www/html/
 EXPOSE $PORT
