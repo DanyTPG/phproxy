@@ -1,3 +1,3 @@
-FROM nginx
-COPY . /usr/share/nginx/html
+FROM php:apache
+COPY . /var/www/html/
 EXPOSE $PORT
