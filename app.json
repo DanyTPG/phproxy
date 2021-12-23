@@ -2,5 +2,6 @@
     "name": "phproxy",
     "description": "php proxy",
     "keywords": ["php"],
+    "stack": "container",
     "repository": "https://github.com/DanyTPG/phproxy"
 }
