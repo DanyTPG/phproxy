@@ -1,6 +1,6 @@
 FROM php:apache
 COPY . /var/www/html/
 EXPOSE $PORT
-RUN chmod +x changePort.sh
-COPY ./changePort.sh /usr/local/bin/
+COPY changePort.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/changePort.sh
 CMD ["changePort.sh"]
